@@ -1,0 +1,49 @@
+{
+  "name": "add-free-course-udemy",
+  "version": "0.0.3",
+  "description": "add automatically free course in your file on your udemy account",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nacimgoura/add-free-course-udemy.git"
+  },
+  "author": {
+    "name": "Nacim Goura",
+    "email": "nacim.goura.dev@gmail.com",
+    "url": "nacimgoura.xyz"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "install": "selenium-standalone install"
+  },
+  "bin": {
+    "add-free-course-udemy": "index.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "udemy",
+    "free",
+    "course",
+    "webdriver",
+    "automation",
+    "nodejs",
+    "selenium"
+  ],
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "inquirer": "^3.1.1",
+    "linebyline": "^1.3.0",
+    "lodash.includes": "^4.3.0",
+    "meow": "^3.7.0",
+    "selenium-standalone": "^6.5.0",
+    "wdio": "^0.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
