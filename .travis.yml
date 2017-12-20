@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - "4"
   - "6"
+  - "8"
 before_install:
   - sudo apt-get update && sudo apt-get install oracle-java8-installer
   - npm install -g add-free-course-udemy
