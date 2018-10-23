@@ -17,7 +17,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "install": "selenium-standalone install"
+    "install": "selenium-standalone install",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "bin": {
     "add-free-course-udemy": "index.js"
@@ -39,11 +41,13 @@
     "lodash.includes": "^4.3.0",
     "meow": "^4.0.0",
     "selenium-standalone": "^6.13.0",
-    "wdio": "^2.0.0"
+    "wdio": "^2.0.0",
+    "snyk": "^1.104.1"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.10.0"
-  }
+  },
+  "snyk": true
 }
